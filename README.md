@@ -8,6 +8,7 @@ property_openapiproject_231103_assignment
   * CyListAdapter.kt
   * RetrofitClient.kt
   * CyApiService.kt - 인터페이스
+  * AptLttotPblancDetailDTO.kt
 
   
 # RetrofitClient.kt
