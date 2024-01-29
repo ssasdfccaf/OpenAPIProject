@@ -12,7 +12,8 @@
   * CyApiService.kt - 인터페이스
   * AptLttotPblancDetailDTO.kt
 
-  
+
+* 주요 파일 - 일부 내용  
 # RetrofitClient.kt
 
     open fun getInstance() : Retrofit {
