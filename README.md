@@ -16,15 +16,19 @@
 
 
   # RetrofitClient.kt
+  
   open fun getInstance() : Retrofit {
+  
         if (instance == null) {
             instance = Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
 
-        } // end if
+        }
+        // end if
         return instance!!
+  
     }
   
   
@@ -33,13 +37,17 @@
 
 
   # CyApiService.kt
+  
     @GET("ApplyhomeInfoDetailSvc/v1/getAPTLttotPblancDetail")
+  
     fun getAPTLttotPblancDetail(
+  
         @Query("page")
         page: Int = 1,
         @Query("perPage")
         perPage: Int = 10,
         @Query("serviceKey")
         serviceKey: String = authKey
-    ) : Call<AptLttotPblancDetailDTO>
+  
+    ): Call<AptLttotPblancDetailDTO>
 
