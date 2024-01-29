@@ -15,8 +15,6 @@
 
 
 
-
-* 주요 파일 - 일부 내용
   # RetrofitClient.kt
     open fun getInstance() : Retrofit {
         if (instance == null) {
