@@ -16,7 +16,7 @@
 
 
   # RetrofitClient.kt
-    open fun getInstance() : Retrofit {
+  open fun getInstance() : Retrofit {
         if (instance == null) {
             instance = Retrofit.Builder()
                 .baseUrl(BASE_URL)
@@ -26,6 +26,7 @@
         } // end if
         return instance!!
     }
+    
 
 
 
