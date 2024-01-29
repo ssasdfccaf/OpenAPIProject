@@ -30,9 +30,6 @@ property_openapiproject_231103_assignment
 
 # CyApiService.kt
 
-/**
- * 청약 API - 주택 관리 번호, 공고 번호, 공고 지역 코드, 모집 공고일 값을 이용하여 APT 분양 정보의 상세 정보를 제공
- */
 interface CyApiService {
     
     @GET("ApplyhomeInfoDetailSvc/v1/getAPTLttotPblancDetail")
