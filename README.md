@@ -16,7 +16,6 @@
 
 
   # RetrofitClient.kt
-  
     open fun getInstance() : Retrofit {
         if (instance == null) {
             instance = Retrofit.Builder()
@@ -25,14 +24,12 @@
                 .build()
 
         } // end if
-
         return instance!!
     }
 
 
 
   # CyApiService.kt
-  
     @GET("ApplyhomeInfoDetailSvc/v1/getAPTLttotPblancDetail")
     fun getAPTLttotPblancDetail(
         @Query("page")
