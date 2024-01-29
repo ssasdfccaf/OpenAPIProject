@@ -13,9 +13,12 @@
   * AptLttotPblancDetailDTO.kt
 
 
-* 주요 파일 - 일부 내용  
-# RetrofitClient.kt
 
+
+
+* 주요 파일 - 일부 내용
+  
+  # RetrofitClient.kt
     open fun getInstance() : Retrofit {
         if (instance == null) {
             instance = Retrofit.Builder()
@@ -30,9 +33,7 @@
 
 
 
-
-
-# CyApiService.kt
+  # CyApiService.kt
     
     @GET("ApplyhomeInfoDetailSvc/v1/getAPTLttotPblancDetail")
     fun getAPTLttotPblancDetail(
