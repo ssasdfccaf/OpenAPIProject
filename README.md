@@ -1,6 +1,5 @@
-# { 청약 API } 안드로이드 개인 과제
-
 # OpenAPIProject
+# { 청약 API } 안드로이드 개인 과제
 property_openapiproject_231103_assignment
 
 
