@@ -7,7 +7,7 @@ property_openapiproject_231103_assignment
 * 주요 파일
   * CyListAdapter.kt
   * RetrofitClient.kt
-  * CyApiService.kt
+  * CyApiService.kt - 인터페이스
 
   
 # RetrofitClient.kt
@@ -29,8 +29,6 @@ property_openapiproject_231103_assignment
 
 
 # CyApiService.kt
-
-interface CyApiService {
     
     @GET("ApplyhomeInfoDetailSvc/v1/getAPTLttotPblancDetail")
     fun getAPTLttotPblancDetail(
@@ -42,4 +40,3 @@ interface CyApiService {
         serviceKey: String = authKey
     ) : Call<AptLttotPblancDetailDTO>
 
-}  
