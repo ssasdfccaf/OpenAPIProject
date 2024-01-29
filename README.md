@@ -3,7 +3,7 @@
 property_openapiproject_231103_assignment
 
 
-# 주요 파일
+* 주요 파일
 # RetrofitClient.kt
 package com.example.openapiproject.network
 
