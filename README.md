@@ -34,13 +34,6 @@ property_openapiproject_231103_assignment
  * 청약 API - 주택 관리 번호, 공고 번호, 공고 지역 코드, 모집 공고일 값을 이용하여 APT 분양 정보의 상세 정보를 제공
  */
 interface CyApiService {
-
-    companion object {
-        // 발급받은 서비스 키
-        private const val authKey = "2XdTyQg8UpkQZbYwCAI7QOktDUUaH0WRVKLRUQ1rpxkddWw1H2tsG5W1Sg1SzQvygpSUw8pYMtzZgwZkpdKrlQ=="
-
-    }
-
     
     @GET("ApplyhomeInfoDetailSvc/v1/getAPTLttotPblancDetail")
     fun getAPTLttotPblancDetail(
